@@ -1,0 +1,80 @@
+@font-face{
+    font-family: comfortaa;
+    src: url('Comfortaa_Regular.ttf'),
+    url('Comfortaa_Regular.eot'); /* IE9 */
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    width: 100%;
+    height: auto;
+    background-color: darkgray;
+    font-family: comfortaa;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.item{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+.home{
+    text-decoration: none;
+    color: BLACK;
+    margin: 5px;
+    font-family: comfortaa;
+}
+.field{
+    text-align: right;
+    float: left;
+    width: 100px;
+    font-family: comfortaa;
+    margin-right: 10px;
+}
+#g_content{
+    width: 100%;
+    height:auto;
+    text-align: center;
+
+
+}
+#g_gallery{
+    width: 70%;
+    height: 500px;
+    height: auto;
+    display: inline-block;
+    /*background: azure;*/
+    /*padding-top:80px ;*/
+    text-align: left;
+}
+.g_link{
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+#g_pic{
+    width: 80%;
+    height: auto;
+    color: dimgray;
+    vertical-align: middle;
+    display: inline;
+    margin-top: 20px;
+
+}
+.g_img{
+    position: relative;
+    height: 300px;
+    display: inline;
+    border: 5px solid rgba(99, 99, 99, 0.70);
+    margin-right: 5px;
+    padding: 10px;
+    background: rgba(218, 229, 238, 0.11);
+    box-shadow: 0 0 10px rgba(117, 117, 117, 0.58);
+    margin: 10px;
+}
